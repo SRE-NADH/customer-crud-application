@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+form>input{
+ width: 300px;
+ height: 30px;
+ margin: 5px;
+ padding: 5px;
+ border-radius: 10px;
+}
+.sign-up{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form>button{
+  width: 200px;
+  height: 30px;
+  background-color: rgb(19, 128, 230);
+  border: none;
+  border-radius: 10px;
+}
+th,td{
+  padding: 10px;
+  text-align: center;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home>h1{
+  margin: 20px;
+}
+.function-components>*{
+ margin: 10px;
+ padding: 7px;
+}  
+.function-components>button{
+  background-color: rgb(117, 117, 225);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.customer-details{
+  margin-top: 50px;
+}
+.customer-details>div{
+  margin: 10px;
+}
+.customer-details input{
+  padding: 10px;
+  margin: 10px;
+}
+.customer-details button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(117, 117, 225);
+  border: none;
+}
