@@ -21,7 +21,7 @@ public class CorsConfigaration {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("http://localhost:3000").allowedMethods(HttpMethod.GET.name(),
+                registry.addMapping("/**").allowedOrigins("http://localhost:3000","https://customer-crud-application.vercel.app").allowedMethods(HttpMethod.GET.name(),
                         HttpMethod.POST.name(), HttpMethod.DELETE.name(),HttpMethod.PUT.name()).allowedHeaders(HttpHeaders.AUTHORIZATION,HttpHeaders.CONTENT_TYPE);
             // Enable CORS for the whole application.
             }
