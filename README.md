@@ -23,8 +23,8 @@ Spring Boot
 1. Clone the repository:
 
 ```
-git clone https://github.com/SRE-NADH/customer-crud.git
-cd customer-crud
+git clone https://github.com/SRE-NADH/customer-crud-application.git
+cd customer-crud-application
 ```
 
 
